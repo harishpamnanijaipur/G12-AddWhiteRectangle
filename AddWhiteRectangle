@@ -6,8 +6,9 @@ screen = pygame.display.set_mode((400,600))
 pygame.display.set_caption("Draw Rectangle")
 # Display game window 
 background_image = pygame.image.load("bg2.jpg").convert()
-#.blit() is how you copy the contents of one screen to another.
+
 screen.blit(background_image,[0,0])
+pygame.display.update()
 
 
 #Color or rectangle
